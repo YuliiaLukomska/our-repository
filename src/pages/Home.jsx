@@ -1,4 +1,4 @@
-import { Container, Heading, Section } from 'components';
+import { Container, ExchangeForm, Heading, Section } from 'components';
 
 const Home = () => {
   const isError = false;
@@ -14,6 +14,7 @@ const Home = () => {
             title="Something went wrong...😐 Check the data validity and try again!"
           />
         )}
+        <ExchangeForm />
       </Container>
     </Section>
   );
